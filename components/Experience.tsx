@@ -9,7 +9,7 @@ const Experience = () => {
     </h1>
     {/* grid lg:grid-cols-4 grid-cols-1 */}
     <div className='w-full mt-12 flex justify-center '>
-        {workExperience.map(( {id, title,  desc,  className,  thumbnail})=>(
+        {workExperience.map(( {id, title,  desc,  thumbnail})=>(
            <Button key={id} 
            duration={Math.floor(Math.random()*10000)+7000}
            borderRadius='1.75rem'
