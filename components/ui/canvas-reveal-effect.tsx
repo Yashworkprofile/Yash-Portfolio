@@ -192,6 +192,8 @@ const ShaderMaterial = ({
   uniforms: Uniforms;
 }) => {
   const { size } = useThree();
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
   const ref = useRef<THREE.Mesh>();
   let lastFrameTime = 0;
 
