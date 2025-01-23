@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-
+/* eslint-disable  @typescript-eslint/no-explicit-any */
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
 import { IoLogoLinkedin } from "react-icons/io5";
