@@ -27,7 +27,7 @@ const Hero = () => {
             <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
               Hi, I&apos;m Yash, a Software Developer
             </p>
-            <a href="https://drive.google.com/file/d/1SZkKFjiwD_A6v1RgJx8C870AnIVnxO_2/view?usp=drive_link" target='_blank'><MagicButton title="See My Resume "
+            <a href="https://drive.google.com/file/d/1dtX1JR-PzUnQorRZdtSrSVaTYSjBSj9h/view?usp=sharing" target='_blank'><MagicButton title="See My Resume "
             icon={<MdContactPage size={25}/>}
             position='right'
             />
